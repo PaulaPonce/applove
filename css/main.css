@@ -89,3 +89,21 @@ header{
   display: inline-block;
   font-size: 14px;
 }
+
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
