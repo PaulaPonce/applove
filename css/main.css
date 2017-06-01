@@ -116,12 +116,15 @@ header{
   padding: 70px 7px;
 }
 
-
 .row .col-4 img{
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
+.row .col-4 img:hover{
+  opacity: 0.8;
+}
 
 /* footer */
 footer{
@@ -134,8 +137,7 @@ footer{
 
 /* modal */
 #products-modal{
-  background-color: #0a878d; /*#87c175*/
-  opacity: 0.9;
+  background-color: rgba(10, 135, 141, 0.9); /*#0a878d; /*#87c175*/
   width: 100%;
   height: 100%;
   position: fixed;
@@ -151,20 +153,27 @@ footer{
   padding: 20px;
 }
 
+#products-modal .modal-body img{
+  width: 100%;
+  border: 10px solid whitesmoke;
+}
+
 #products-modal .close{
   position: absolute;
-  top: 30px;
+  top: 35px;
   right: 300px;
   cursor: pointer;
 }
 
-#products-modal .modal-body img{
-  width: 100%;
-  border: 10px solid whitesmoke;
-  opacity: 1;
+#products-modal .close i{
+  color: #0a878d;
+  font-size: 30px;
+}
+
+#products-modal .close i:hover{
+  color: #50a2a8;
 }
 
 .hide{
   display: none;
 }
-
